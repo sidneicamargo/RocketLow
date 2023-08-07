@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Fundo branco */
+}
+
+.content {
+    text-align: center;
+}
+
+.square {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #cccccc; /* Quadrado cinza */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 75%;
+    height: 85px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+button {
+    width: 80%;
+    height: 85px;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 1px;
+}
+
+.green-btn {
+    background-color: #4CAF50; /* Botão verde */
+    color: #ffffff;
+    margin-right: 0px;
+}
+
+.signup-btn {
+    background-color: #cccccc; /* Botão vermelho */
+    color: #000000;
+}

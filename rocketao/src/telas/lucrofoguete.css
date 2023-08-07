@@ -1,0 +1,113 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.left-container {
+    width: 30%;
+}
+
+.card {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #ddd;
+}
+
+.card-image {
+    height: 50%;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 10px;
+}
+
+.card-info h3 {
+    margin-top: 0;
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+
+.card-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Estilo do quadrado da direita */
+.right-container {
+    width: 30%;
+}
+
+.form-container {
+    width: 90%;
+    height: 500px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #c9c9c9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-field {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.input-label {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 85%;
+    height: 40%;
+    padding: 25px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.green-btn {
+    width: 77%;
+    height: 18%;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+}

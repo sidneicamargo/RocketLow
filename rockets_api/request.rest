@@ -1,0 +1,124 @@
+//////////////////////////////////////////////////////////////////////////////////////////////
+//USUARIOS
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+POST http://localhost:3000/api/usuario/create
+Content-Type: application/json
+
+{
+    "nome": "testeAA",
+    "idade": 58
+}
+
+###
+
+GET http://localhost:3000/api/usuario
+
+###
+
+GET http://localhost:3000/api/usuario/testeAA
+
+
+###
+
+DELETE http://localhost:3000/api/usuario/64cea9604bbf9558155a1b68
+
+
+###
+
+PUT http://localhost:3000/api/usuario/64cea3031b21f611510c1af2
+Content-Type: application/json
+
+{
+    "nome": "testeAlterado",
+    "idade": 57
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+//LANCAMENTOS
+//////////////////////////////////////////////////////////////////////////////////////////////
+###
+
+
+
+POST http://localhost:3000/api/lancamento/create
+Content-Type: application/json
+
+{
+    "dataLancamento": "2023-05-12",
+    "lancado": false
+}
+
+###
+
+GET http://localhost:3000/api/lancamento
+
+###
+
+GET http://localhost:3000/api/lancamento/64cec56d0260282305426228
+
+
+###
+
+DELETE http://localhost:3000/api/lancamento/64cec56d0260282305426228
+
+
+###
+
+PUT http://localhost:3000/api/lancamento/64cec56d0260282305426228
+Content-Type: application/json
+
+{
+    "dataLancamento": "2001-05-12",
+    "lancado": false
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+//COTACOES
+//////////////////////////////////////////////////////////////////////////////////////////////
+###
+
+
+
+POST http://localhost:3000/api/cotacao/create
+Content-Type: application/json
+
+{
+    "foguete": 6,
+    "margemLucro": 60,
+    "valorLancamento": 6000
+}
+
+###
+
+GET http://localhost:3000/api/cotacao
+
+###
+
+GET http://localhost:3000/api/cotacao/64cec9815d67c5026a6f497d
+
+
+###
+
+DELETE http://localhost:3000/api/cotacao/64cec9a05d67c5026a6f4983
+
+
+###
+
+PUT http://localhost:3000/api/cotacao/64cec9875d67c5026a6f497f
+Content-Type: application/json
+
+{
+    "foguete": 99,
+    "margemLucro": 99,
+    "valorLancamento": 99999999
+}
+
+
+
+
+
+
